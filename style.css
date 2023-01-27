@@ -1,0 +1,55 @@
+.body{ 
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      font-weight: 100;
+     
+  }
+  .header-text {
+      text-align: left;
+      padding: 20px;
+    font-family: "Helvetica-Neue"
+    }
+  .info-link{
+    text-align:right;
+    padding:10px;
+    margin-right:10%;
+    text-decoration:none;
+    font-family: "Helvetica-Neue";
+    font-size:20px
+  }
+  #mysketch{
+    position:relative;
+    top:75px; 
+    left:75px;
+  }
+  .row { margin-bottom: 40px;}
+
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.809);
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+  }
+
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica-Neue";
+    color: black;
+  }
+  #overlay h1 p {
+    top: 10%;
+    left: 50%;
+  }
